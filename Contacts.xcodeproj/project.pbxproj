@@ -16,6 +16,11 @@
 		BE97295629C4566A0041CA15 /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97295529C4566A0041CA15 /* ContactsTests.swift */; };
 		BE97296029C4566A0041CA15 /* ContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97295F29C4566A0041CA15 /* ContactsUITests.swift */; };
 		BE97296229C4566A0041CA15 /* ContactsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97296129C4566A0041CA15 /* ContactsUITestsLaunchTests.swift */; };
+		BE97297029C459930041CA15 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97296F29C459930041CA15 /* Contact.swift */; };
+		BE97297329C45F2C0041CA15 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97297229C45F2C0041CA15 /* EditViewController.swift */; };
+		BE97297629C462E80041CA15 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97297529C462E80041CA15 /* Gender.swift */; };
+		BE97297A29C4652D0041CA15 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97297929C4652D0041CA15 /* ListTableViewController.swift */; };
+		BE97297C29C4667C0041CA15 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97297B29C4667C0041CA15 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		BE97295B29C4566A0041CA15 /* ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE97295F29C4566A0041CA15 /* ContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsUITests.swift; sourceTree = "<group>"; };
 		BE97296129C4566A0041CA15 /* ContactsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE97296F29C459930041CA15 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		BE97297229C45F2C0041CA15 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		BE97297529C462E80041CA15 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		BE97297929C4652D0041CA15 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		BE97297B29C4667C0041CA15 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,8 @@
 		BE97293D29C456690041CA15 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				BE97297129C45F1A0041CA15 /* Controllers */,
+				BE97296E29C459560041CA15 /* Model */,
 				BE97293E29C456690041CA15 /* AppDelegate.swift */,
 				BE97294029C456690041CA15 /* SceneDelegate.swift */,
 				BE97294229C456690041CA15 /* ViewController.swift */,
@@ -125,6 +137,25 @@
 				BE97296129C4566A0041CA15 /* ContactsUITestsLaunchTests.swift */,
 			);
 			path = ContactsUITests;
+			sourceTree = "<group>";
+		};
+		BE97296E29C459560041CA15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE97296F29C459930041CA15 /* Contact.swift */,
+				BE97297529C462E80041CA15 /* Gender.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE97297129C45F1A0041CA15 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE97297229C45F2C0041CA15 /* EditViewController.swift */,
+				BE97297929C4652D0041CA15 /* ListTableViewController.swift */,
+				BE97297B29C4667C0041CA15 /* DetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE97297629C462E80041CA15 /* Gender.swift in Sources */,
+				BE97297329C45F2C0041CA15 /* EditViewController.swift in Sources */,
+				BE97297029C459930041CA15 /* Contact.swift in Sources */,
 				BE97294329C456690041CA15 /* ViewController.swift in Sources */,
 				BE97293F29C456690041CA15 /* AppDelegate.swift in Sources */,
 				BE97294129C456690041CA15 /* SceneDelegate.swift in Sources */,
+				BE97297A29C4652D0041CA15 /* ListTableViewController.swift in Sources */,
+				BE97297C29C4667C0041CA15 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
